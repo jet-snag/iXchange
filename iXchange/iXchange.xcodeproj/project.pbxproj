@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		874191651BB4365100A2A285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874191641BB4365100A2A285 /* AppDelegate.swift */; };
-		874191671BB4365100A2A285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874191661BB4365100A2A285 /* ViewController.swift */; };
+		8732F5A51BB47CAE00216C21 /* iXCentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732F5A41BB47CAE00216C21 /* iXCentralManager.swift */; settings = {ASSET_TAGS = (); }; };
+		8732F5A61BB47CAE00216C21 /* iXCentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732F5A41BB47CAE00216C21 /* iXCentralManager.swift */; settings = {ASSET_TAGS = (); }; };
+		8732F5A81BB47FE500216C21 /* PowerBankDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732F5A71BB47FE500216C21 /* PowerBankDevice.swift */; settings = {ASSET_TAGS = (); }; };
+		8732F5A91BB47FE500216C21 /* PowerBankDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732F5A71BB47FE500216C21 /* PowerBankDevice.swift */; settings = {ASSET_TAGS = (); }; };
 		8741916A1BB4365100A2A285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874191681BB4365100A2A285 /* Main.storyboard */; };
 		8741916C1BB4365100A2A285 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8741916B1BB4365100A2A285 /* Images.xcassets */; };
 		8741916F1BB4365100A2A285 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8741916D1BB4365100A2A285 /* LaunchScreen.xib */; };
 		8741917B1BB4365100A2A285 /* iXchangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741917A1BB4365100A2A285 /* iXchangeTests.swift */; };
+		874191851BB441C200A2A285 /* iXchangeAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874191841BB441C200A2A285 /* iXchangeAppDelegate.swift */; };
+		87C454961BB5AC5A00346E51 /* iXPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C454951BB5AC5A00346E51 /* iXPeripheral.swift */; settings = {ASSET_TAGS = (); }; };
+		87C454971BB5AC5A00346E51 /* iXPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C454951BB5AC5A00346E51 /* iXPeripheral.swift */; settings = {ASSET_TAGS = (); }; };
+		87C454991BB8CA4300346E51 /* PowerBankDeviceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C454981BB8CA4300346E51 /* PowerBankDeviceDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		87C4549A1BB8CA4300346E51 /* PowerBankDeviceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C454981BB8CA4300346E51 /* PowerBankDeviceDelegate.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +33,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8732F5A41BB47CAE00216C21 /* iXCentralManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iXCentralManager.swift; sourceTree = "<group>"; };
+		8732F5A71BB47FE500216C21 /* PowerBankDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerBankDevice.swift; sourceTree = "<group>"; };
 		8741915F1BB4365100A2A285 /* iXchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iXchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		874191631BB4365100A2A285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		874191641BB4365100A2A285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		874191661BB4365100A2A285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		874191691BB4365100A2A285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8741916B1BB4365100A2A285 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8741916E1BB4365100A2A285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		874191741BB4365100A2A285 /* iXchangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iXchangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		874191791BB4365100A2A285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8741917A1BB4365100A2A285 /* iXchangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iXchangeTests.swift; sourceTree = "<group>"; };
+		874191841BB441C200A2A285 /* iXchangeAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iXchangeAppDelegate.swift; sourceTree = "<group>"; };
+		87C454951BB5AC5A00346E51 /* iXPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iXPeripheral.swift; sourceTree = "<group>"; };
+		87C454981BB8CA4300346E51 /* PowerBankDeviceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerBankDeviceDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +87,9 @@
 		874191611BB4365100A2A285 /* iXchange */ = {
 			isa = PBXGroup;
 			children = (
-				874191641BB4365100A2A285 /* AppDelegate.swift */,
-				874191661BB4365100A2A285 /* ViewController.swift */,
+				8741918A1BB4424D00A2A285 /* BLE */,
+				8741918B1BB4424D00A2A285 /* ViewController */,
+				874191841BB441C200A2A285 /* iXchangeAppDelegate.swift */,
 				874191681BB4365100A2A285 /* Main.storyboard */,
 				8741916B1BB4365100A2A285 /* Images.xcassets */,
 				8741916D1BB4365100A2A285 /* LaunchScreen.xib */,
@@ -110,6 +121,24 @@
 				874191791BB4365100A2A285 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8741918A1BB4424D00A2A285 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				8732F5A41BB47CAE00216C21 /* iXCentralManager.swift */,
+				87C454951BB5AC5A00346E51 /* iXPeripheral.swift */,
+				8732F5A71BB47FE500216C21 /* PowerBankDevice.swift */,
+				87C454981BB8CA4300346E51 /* PowerBankDeviceDelegate.swift */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		8741918B1BB4424D00A2A285 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,11 +185,13 @@
 		874191571BB4365100A2A285 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
-				ORGANIZATIONNAME = "Marko Markov";
+				ORGANIZATIONNAME = "Channel Enterprise HK";
 				TargetAttributes = {
 					8741915E1BB4365100A2A285 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 4T63JPSMKA;
 					};
 					874191731BB4365100A2A285 = {
 						CreatedOnToolsVersion = 6.4;
@@ -212,8 +243,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				874191671BB4365100A2A285 /* ViewController.swift in Sources */,
-				874191651BB4365100A2A285 /* AppDelegate.swift in Sources */,
+				8732F5A51BB47CAE00216C21 /* iXCentralManager.swift in Sources */,
+				87C454991BB8CA4300346E51 /* PowerBankDeviceDelegate.swift in Sources */,
+				8732F5A81BB47FE500216C21 /* PowerBankDevice.swift in Sources */,
+				87C454961BB5AC5A00346E51 /* iXPeripheral.swift in Sources */,
+				874191851BB441C200A2A285 /* iXchangeAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8732F5A61BB47CAE00216C21 /* iXCentralManager.swift in Sources */,
+				87C4549A1BB8CA4300346E51 /* PowerBankDeviceDelegate.swift in Sources */,
+				8732F5A91BB47FE500216C21 /* PowerBankDevice.swift in Sources */,
+				87C454971BB5AC5A00346E51 /* iXPeripheral.swift in Sources */,
 				8741917B1BB4365100A2A285 /* iXchangeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,9 +378,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iXchange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.channel.MovingPower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2636f323-fe21-4671-b00c-4fd699eb6ca6";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -350,9 +393,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iXchange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.channel.MovingPower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a7cda115-8788-4117-af3f-cb4fe62bb718";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -409,6 +457,7 @@
 				874191801BB4365100A2A285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		874191811BB4365100A2A285 /* Build configuration list for PBXNativeTarget "iXchangeTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +466,7 @@
 				874191831BB4365100A2A285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,17 @@
+//
+//  MovingPower-Prefix.pch
+//  MovingPower
+//
+//  Created by Marko Markov on 28/09/15.
+//  Copyright © 2015 Channel Enterprise (HK) Ltd. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+
+/* MovingPower_Prefix_pch */
