@@ -18,8 +18,8 @@
 
 + (UIViewController*) getViewControllerWithIdentifider : (NSString*) storyboardName identifier : (NSString*) identifier{
     
-    UIStoryboard * storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
-    return [storyboard instantiateViewControllerWithIdentifier:identifier];
+    UIStoryboard * storyboard = [UIStoryboard storyboardWithName : storyboardName bundle:nil];
+    return [storyboard instantiateViewControllerWithIdentifier : identifier];
 }
 
 @end

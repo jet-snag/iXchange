@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		093DFBA957E0337D92D19BF0 /* libPods-MovingPower.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AE7613378A29B6F72CEF4C /* libPods-MovingPower.a */; };
 		8703E4831BBB735500CB6495 /* BankDeviceStatusVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8703E4821BBB735500CB6495 /* BankDeviceStatusVC.m */; settings = {ASSET_TAGS = (); }; };
 		8703E4841BBB735500CB6495 /* BankDeviceStatusVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8703E4821BBB735500CB6495 /* BankDeviceStatusVC.m */; settings = {ASSET_TAGS = (); }; };
 		8703E4891BBB75F900CB6495 /* MPStoryboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8703E4881BBB75F900CB6495 /* MPStoryboardManager.m */; settings = {ASSET_TAGS = (); }; };
@@ -17,6 +18,10 @@
 		874A1DC71BB9C86000430C0F /* MPSerialService.m in Sources */ = {isa = PBXBuildFile; fileRef = 874A1DC51BB9C86000430C0F /* MPSerialService.m */; settings = {ASSET_TAGS = (); }; };
 		874A1DCA1BB9CDCD00430C0F /* MPBatteryService.m in Sources */ = {isa = PBXBuildFile; fileRef = 874A1DC91BB9CDCD00430C0F /* MPBatteryService.m */; settings = {ASSET_TAGS = (); }; };
 		874A1DCB1BB9CDCD00430C0F /* MPBatteryService.m in Sources */ = {isa = PBXBuildFile; fileRef = 874A1DC91BB9CDCD00430C0F /* MPBatteryService.m */; settings = {ASSET_TAGS = (); }; };
+		87BA5C6B1BC19A48008C2835 /* ChargeChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BA5C6A1BC19A48008C2835 /* ChargeChart.m */; settings = {ASSET_TAGS = (); }; };
+		87BA5C6C1BC19A48008C2835 /* ChargeChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BA5C6A1BC19A48008C2835 /* ChargeChart.m */; settings = {ASSET_TAGS = (); }; };
+		87BA5C6F1BC22F44008C2835 /* MPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BA5C6E1BC22F44008C2835 /* MPUtils.m */; settings = {ASSET_TAGS = (); }; };
+		87BA5C701BC22F44008C2835 /* MPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BA5C6E1BC22F44008C2835 /* MPUtils.m */; settings = {ASSET_TAGS = (); }; };
 		87C454A91BB96DAB00346E51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C454A81BB96DAB00346E51 /* main.m */; };
 		87C454AC1BB96DAB00346E51 /* MPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C454AB1BB96DAB00346E51 /* MPAppDelegate.m */; };
 		87C454B21BB96DAB00346E51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C454B01BB96DAB00346E51 /* Main.storyboard */; };
@@ -51,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23422B9F28E05A14194D30DF /* Pods-MovingPower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovingPower.release.xcconfig"; path = "Pods/Target Support Files/Pods-MovingPower/Pods-MovingPower.release.xcconfig"; sourceTree = "<group>"; };
+		6B2E66D824F678904B180C9D /* Pods-MovingPower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovingPower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MovingPower/Pods-MovingPower.debug.xcconfig"; sourceTree = "<group>"; };
 		8703E4811BBB735500CB6495 /* BankDeviceStatusVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankDeviceStatusVC.h; sourceTree = "<group>"; };
 		8703E4821BBB735500CB6495 /* BankDeviceStatusVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankDeviceStatusVC.m; sourceTree = "<group>"; };
 		8703E4871BBB75F900CB6495 /* MPStoryboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPStoryboardManager.h; sourceTree = "<group>"; };
@@ -62,6 +69,10 @@
 		874A1DC81BB9CDCD00430C0F /* MPBatteryService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPBatteryService.h; sourceTree = "<group>"; };
 		874A1DC91BB9CDCD00430C0F /* MPBatteryService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPBatteryService.m; sourceTree = "<group>"; };
 		874A1DCE1BB9DAF500430C0F /* MPDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPDefine.h; sourceTree = "<group>"; };
+		87BA5C691BC19A48008C2835 /* ChargeChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChargeChart.h; sourceTree = "<group>"; };
+		87BA5C6A1BC19A48008C2835 /* ChargeChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChargeChart.m; sourceTree = "<group>"; };
+		87BA5C6D1BC22F44008C2835 /* MPUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPUtils.h; sourceTree = "<group>"; };
+		87BA5C6E1BC22F44008C2835 /* MPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPUtils.m; sourceTree = "<group>"; };
 		87C454A41BB96DAA00346E51 /* MovingPower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovingPower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C454A81BB96DAB00346E51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		87C454AA1BB96DAB00346E51 /* MPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPAppDelegate.h; sourceTree = "<group>"; };
@@ -99,6 +110,7 @@
 		87CC72891BB9B37300CE370B /* BankDeviceListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankDeviceListVC.m; sourceTree = "<group>"; };
 		87CC728D1BB9BC0800CE370B /* MPBLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPBLEManager.h; sourceTree = "<group>"; };
 		87CC728E1BB9BC0800CE370B /* MPBLEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPBLEManager.m; sourceTree = "<group>"; };
+		94AE7613378A29B6F72CEF4C /* libPods-MovingPower.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovingPower.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				093DFBA957E0337D92D19BF0 /* libPods-MovingPower.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,11 +132,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43AF7200AEF32F88E0BC51EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B2E66D824F678904B180C9D /* Pods-MovingPower.debug.xcconfig */,
+				23422B9F28E05A14194D30DF /* Pods-MovingPower.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B1DD40D9D8B04310A30054F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94AE7613378A29B6F72CEF4C /* libPods-MovingPower.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8703E4851BBB75DE00CB6495 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
 				8703E4871BBB75F900CB6495 /* MPStoryboardManager.h */,
 				8703E4881BBB75F900CB6495 /* MPStoryboardManager.m */,
+				87BA5C6D1BC22F44008C2835 /* MPUtils.h */,
+				87BA5C6E1BC22F44008C2835 /* MPUtils.m */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -151,12 +183,23 @@
 			name = Definition;
 			sourceTree = "<group>";
 		};
+		87BA5C681BC19A31008C2835 /* CustomControl */ = {
+			isa = PBXGroup;
+			children = (
+				87BA5C691BC19A48008C2835 /* ChargeChart.h */,
+				87BA5C6A1BC19A48008C2835 /* ChargeChart.m */,
+			);
+			path = CustomControl;
+			sourceTree = "<group>";
+		};
 		87C4549B1BB96DAA00346E51 = {
 			isa = PBXGroup;
 			children = (
 				87C454A61BB96DAA00346E51 /* MovingPower */,
 				87C454C01BB96DAB00346E51 /* MovingPowerTests */,
 				87C454A51BB96DAA00346E51 /* Products */,
+				43AF7200AEF32F88E0BC51EB /* Pods */,
+				6B1DD40D9D8B04310A30054F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -253,6 +296,7 @@
 		87C454DC1BB9706D00346E51 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				87BA5C681BC19A31008C2835 /* CustomControl */,
 				87CC728C1BB9B48500CE370B /* CustomCell */,
 				87CC72881BB9B37300CE370B /* BankDeviceListVC.h */,
 				87CC72891BB9B37300CE370B /* BankDeviceListVC.m */,
@@ -276,9 +320,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87C454C61BB96DAB00346E51 /* Build configuration list for PBXNativeTarget "MovingPower" */;
 			buildPhases = (
+				5D259FF1A7FC2044486FE94A /* Check Pods Manifest.lock */,
 				87C454A01BB96DAA00346E51 /* Sources */,
 				87C454A11BB96DAA00346E51 /* Frameworks */,
 				87C454A21BB96DAA00346E51 /* Resources */,
+				9265CF64B7155B0C6B7ADD8A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -365,6 +411,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D259FF1A7FC2044486FE94A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9265CF64B7155B0C6B7ADD8A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MovingPower/Pods-MovingPower-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		87C454A01BB96DAA00346E51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -379,10 +458,12 @@
 				87C454DD1BB9706D00346E51 /* CBUUID+StringExtraction.m in Sources */,
 				87C454EA1BB997CF00346E51 /* MPControlService.m in Sources */,
 				8703E4831BBB735500CB6495 /* BankDeviceStatusVC.m in Sources */,
+				87BA5C6B1BC19A48008C2835 /* ChargeChart.m in Sources */,
 				87CC728F1BB9BC0800CE370B /* MPBLEManager.m in Sources */,
 				87C454AC1BB96DAB00346E51 /* MPAppDelegate.m in Sources */,
 				87C454EF1BB9A0C800346E51 /* MPOTAService.m in Sources */,
 				87C454E61BB972E600346E51 /* MPDevice.m in Sources */,
+				87BA5C6F1BC22F44008C2835 /* MPUtils.m in Sources */,
 				8703E4891BBB75F900CB6495 /* MPStoryboardManager.m in Sources */,
 				8703E48D1BBB83D300CB6495 /* MPBLEUtils.m in Sources */,
 				87C454A91BB96DAB00346E51 /* main.m in Sources */,
@@ -398,12 +479,14 @@
 				8703E4841BBB735500CB6495 /* BankDeviceStatusVC.m in Sources */,
 				87CC72901BB9BC0800CE370B /* MPBLEManager.m in Sources */,
 				87C454C21BB96DAB00346E51 /* MovingPowerTests.m in Sources */,
+				87BA5C6C1BC19A48008C2835 /* ChargeChart.m in Sources */,
 				8703E48A1BBB75F900CB6495 /* MPStoryboardManager.m in Sources */,
 				874A1DC71BB9C86000430C0F /* MPSerialService.m in Sources */,
 				87C454F01BB9A0C800346E51 /* MPOTAService.m in Sources */,
 				8703E48E1BBB83D300CB6495 /* MPBLEUtils.m in Sources */,
 				874A1DCB1BB9CDCD00430C0F /* MPBatteryService.m in Sources */,
 				87CC728B1BB9B37300CE370B /* BankDeviceListVC.m in Sources */,
+				87BA5C701BC22F44008C2835 /* MPUtils.m in Sources */,
 				87C454EB1BB997CF00346E51 /* MPControlService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +603,7 @@
 		};
 		87C454C71BB96DAB00346E51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B2E66D824F678904B180C9D /* Pods-MovingPower.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -542,6 +626,7 @@
 		};
 		87C454C81BB96DAB00346E51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23422B9F28E05A14194D30DF /* Pods-MovingPower.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

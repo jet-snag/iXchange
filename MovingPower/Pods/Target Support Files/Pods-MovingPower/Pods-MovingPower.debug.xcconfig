@@ -1,0 +1,6 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$(PODS_ROOT)/GBJailbreakDetection"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GBDeviceInfo" "${PODS_ROOT}/Headers/Public/GBJailbreakDetection" "${PODS_ROOT}/Headers/Public/GBJailbreakDetection/GBJailbreakDetection"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/GBDeviceInfo" -isystem "${PODS_ROOT}/Headers/Public/GBJailbreakDetection" -isystem "${PODS_ROOT}/Headers/Public/GBJailbreakDetection/GBJailbreakDetection"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"GBDeviceInfo" -framework "Foundation" -framework "GBJailbreakDetection" -framework "UIKit"
+PODS_ROOT = ${SRCROOT}/Pods

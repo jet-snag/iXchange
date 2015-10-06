@@ -13,4 +13,8 @@
 #define     kStr_Available          @"Available Devices"
 #define     kStr_Connecting         @"Connecting to devices"
 
+#pragma mark ---
+#pragma mark - Color Definition
+#define     kNormalState_Color      [UIColor colorWithRed:59/255.f green:237/255.f blue:152/255.f alpha:1.0]
+
 #endif /* MPDefine_h */

@@ -7,17 +7,36 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ChargeChart.h"
 #import "MPDevice.h"
 
-@interface BankDeviceStatusVC : UIViewController
+@interface BankDeviceStatusVC : UIViewController {
+    
+    BOOL        bMainViewHidden;
+    CGFloat     chargedPercent;
+}
 
 @property (nonatomic, strong) MPDevice* connectedDevice;
 
-@property (weak, nonatomic) IBOutlet UILabel *lblDischarge_Usb1;
-@property (weak, nonatomic) IBOutlet UILabel *lblDischarge_USB2;
-@property (weak, nonatomic) IBOutlet UILabel *lblBattery_Discharge;
-@property (weak, nonatomic) IBOutlet UILabel *lblQuality;
+// IBOutlet
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *vMainConstraint;
+@property (weak, nonatomic) IBOutlet UIView *vMain;
+@property (weak, nonatomic) IBOutlet UIButton *btnExpand;
 
-- (IBAction)onReadQuality:(id)sender;
+@property (weak, nonatomic) IBOutlet ChargeChart *chargingChart;
+
+@property (weak, nonatomic) IBOutlet UILabel *lblDeviceType;
+
+@property (weak, nonatomic) IBOutlet UILabel *lblChargedPercent;
+@property (weak, nonatomic) IBOutlet UILabel *lblVoltageStatus;
+@property (weak, nonatomic) IBOutlet UILabel *lblChargeDescription;
+
+@property (weak, nonatomic) IBOutlet UISegmentedControl *swDevice;
+
+// IBAction
+- (IBAction)onSettingMenu:(id)sender;
+- (IBAction)onDeviceSelectionChanged:(id)sender;
+- (IBAction)onToggleMainView:(id)sender;
+
 
 @end
